@@ -1,9 +1,8 @@
 * {
-    margin: 0;
+    margin: 20px;
     padding: 0;
     box-sizing: border-box;
     font-family: "Ubuntu", serif;
-    background-color: #575A4B;
 }
 
 img {
@@ -15,11 +14,12 @@ h1 {
 }
 
 h2 {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 p {
-    padding: 15px;
+    padding: 5px;
 }
 
 #profile {
