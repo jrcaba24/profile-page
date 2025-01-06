@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", serif;
+    background-color: #575A4B;
+}
+
+img {
+    border-radius: 100px;
+}
+
+h1 {
+    padding: 20px;
+}
+
+h2 {
+    padding: 20px;
+}
+
+p {
+    padding: 15px;
+}
+
+#profile {
+    text-align: center;
+}
