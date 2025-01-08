@@ -1,27 +1,34 @@
-* {
-    margin: 3%;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Ubuntu", serif;
-}
-
-img {
-    border-radius: 100px;
-}
-
-h1 {
-    padding: 20px;
-}
-
-h2 {
-    padding-top: 20px;
-    padding-bottom: 5px;
-}
-
-p {
-    padding: 5px;
-}
-
-#profile {
+.hero {
+    background: url(./Assets/Images/bg-1.jpg) center/cover no-repeat;
     text-align: center;
+    padding: 150px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.portfolio-item {
+    transition: transform 0.3s ease;
+}
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+.portfolio-item img {
+    border-radius: 5px;
+}
+.contact-form {
+    max-width: 600px;
+    margin: auto;
 }
