@@ -1,7 +1,18 @@
-.hero {
-    background: url(./Assets/Images/bg-1.jpg) center/cover no-repeat;
+#about {
     text-align: center;
-    padding: 150px 20px;
+    padding: 100px 20px;
+}
+
+#about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("./Assets/Images/bg-2.jpeg") center/cover no-repeat fixed, rgba(0, 0, 0, 0.5);
+    opacity: 0.7;
+    z-index: -1;
 }
 
 .hero h1 {
@@ -31,4 +42,16 @@
 .contact-form {
     max-width: 600px;
     margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.social {
+    width: 25px;
+}
+
+.summary {
+    text-align: justify;
 }
